@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Task 2 (Array Handling - Swapping Elements)</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <h1>Task 2: Swapping Elements in an Array (JavaScript)</h1>
+    <div class="main-content">
+        <img src="./image/Muhammad Eshareeb.png" alt="Muhammad Eshareeb" class="profile-image">
+        <p class="personal-info">
+            <strong>Muhammad Eshareeb</strong><br>
+            <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/muhammadeshareeb986/" target="_blank">LinkedIn</a><br>
+            <i class="fas fa-envelope"></i> <a href="mailto:muhammadeshareeb986@gmail.com">muhammadeshareeb986@gmail.com</a><br>
+            <i class="fas fa-phone"></i> 03282300151<br>
+            <i class="fab fa-whatsapp"></i> <a href="https://wa.me/923282300151" target="_blank">WhatsApp</a>
+        </p>
+        <h2 class="animated-heading">Understanding Array Element Swapping</h2>
+        <p>
+            In JavaScript, an <strong>array</strong> is a collection of values stored under a single variable name. Swapping elements of an array is a common task in array handling, which can be done using different methods.
+        </p>
+        <p>
+            In this task, we are swapping the first and last elements of an array using a clever one-liner, demonstrating the power of JavaScript's syntax.
+        </p>
+        <h3 class="animated-heading">JavaScript Implementation</h3>
+        <p>
+            Below is the JavaScript code that swaps the first and last elements of the array:
+        </p>
+        <pre style="overflow-x: auto;">
+<code>
+let arr = ["Mango", "Orange", "Grapes"];
+
+arr[0] = [arr[2], arr[2] = arr[0]][0];
+
+console.log(arr); // Outputs: ["Grapes", "Orange", "Mango"]
+</code>
+        </pre>
+        <h2 class="animated-heading">Results</h2>
+        <div id="results" class="animated-border">
+            <h1>Results:</h1>
+            <p>Original Array: Mango, Orange, Grapes</p>
+            <p>Swapped Array: Grapes, Orange, Mango</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Stay connected and keep learning!</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
